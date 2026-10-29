@@ -37,7 +37,7 @@ class _RegisterPageState extends State<RegisterPage> {
     if (_passwordController.text != _confirmPasswordController.text) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Please Fill out all the fields'),
+          content: Text('Password and Confirm Password do not match'),
         ),
       );
       return;
