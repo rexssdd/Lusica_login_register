@@ -1,17 +1,75 @@
-# login_register
+# Login and Register App
 
-A new Flutter project.
+A simple mobile application developed using **Flutter and Dart**. The project includes a landing page, login screen, and registration screen with basic navigation.
+
+## Features
+
+- Landing page
+- Login screen
+- Registration screen
+- Navigation between screens
+
+## Built With
+
+- Flutter
+- Dart
+- Android Studio / Visual Studio Code
+
+## Project Structure
+
+```text
+login_register/
+├── lib/
+│   ├── main.dart
+│   ├── landing.dart
+│   ├── login.dart
+│   └── register.dart
+├── android/
+├── pubspec.yaml
+└── README.md
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Dart SDK
+- Android device or emulator
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone or download the repository.
+2. Open the project folder in your terminal.
+3. Install the dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the application:
+
+   ```bash
+   flutter run
+   ```
+
+To run the application on a connected Android device, use:
+
+```bash
+flutter devices
+flutter run -d <device-id>
+```
+
+Replace `<device-id>` with your connected device's ID.
+
+## Purpose
+
+This project was created for educational purposes to practice Flutter UI development, widgets, and navigation between landing, login, and registration screens.
+
+## Author
+
+Rexcel Jay A. Lusica
+
+## License
+
+For educational purposes.
